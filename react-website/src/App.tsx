@@ -1,10 +1,10 @@
 
 
-import Message from "./Message"
+//import Message from "./components/Message";
+import InputField from "./components/input";
 
 function App() {
-  return <div> <Message/> </div>;
+  return <div> <InputField/> </div>
 }
 
-
- export default App;
+export default App;
